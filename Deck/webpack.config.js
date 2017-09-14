@@ -11,7 +11,7 @@ const config = {
         './index'
     ],
     output: {
-        path: path.join(__dirname, '/build'),
+        path: path.join(__dirname, '../docs'),
         filename: 'bundle.js'
     },
     plugins: [
@@ -33,13 +33,15 @@ const config = {
                 presets: ['react', 'es2015'],
                 env: {
                     development: {
-                        plugins: [['react-transform', {
-                            transforms: [{
-                                transform: 'react-transform-hmr',
-                                imports: ['react'],
-                                locals: ['module']
+                        plugins: [
+                            ['react-transform', {
+                                transforms: [{
+                                    transform: 'react-transform-hmr',
+                                    imports: ['react'],
+                                    locals: ['module']
+                                }]
                             }]
-                        }]]
+                        ]
                     }
                 }
             }
@@ -83,7 +85,7 @@ if (isProd) {
     ]);
 } else {
     config.devServer = {
-        contentBase: 'public',
+        contentBase: '../docs',
         historyApiFallback: true
     };
     config.plugins = config.plugins.concat([
