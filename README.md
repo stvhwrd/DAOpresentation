@@ -35,7 +35,7 @@ The presentation will run at [localhost:8080](http://localhost:8080).  Updates t
 
 The presentation is served by [GitHub Pages](https://pages.github.com/) and GitHub Pages dictates that static files be served from the `/docs` folder at the root of the repository.
 
--   `npm run build` to build to `/docs`
+-   `npm run predeploy` to build to `/docs`
 -   `git add /docs`
 -   `git commit -m "deploy updated presentation $(date +"%r") on $(date +"%Y/%m/%d")"`
 -   `git push origin master`
