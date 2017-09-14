@@ -31,7 +31,7 @@ To run the dev server locally with Yarn/NPM and NodeJS:
 The presentation will run at [localhost:8080](http://localhost:8080).  Updates to project files will trigger a rebuild, and changes will be reflected in browser.
 
 
-# Deployment
+## Deployment
 
 The presentation is served by [GitHub Pages](https://pages.github.com/) and GitHub Pages dictates that static files be served from the `/docs` folder at the root of the repository.
 
