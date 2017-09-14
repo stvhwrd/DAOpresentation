@@ -9,6 +9,14 @@ for UVic's SENG 360 class.
 We assume that the audience is technically savvy but unfamiliar with
 blockchain technology - specifically Ethereum.
 
+This presentation aims to address the following points:
+
+-   What is the nature of the vulnerability?
+-   How can an attacker exploit it?
+-   What controls can mitigate this vulnerability?
+-   How to learn more about this vulnerability? (By providing reference to information resources)
+
+
 ## Deck Dev
 
 The slides are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and can be edited in the `Deck/presentation/markdown` folder.  Any renames or file additions must be reflected accordingly in the `Deck/presentation/markdown/index.js` file.
