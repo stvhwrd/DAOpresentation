@@ -6,6 +6,8 @@ This is a 12 minute presentation on
 [The DAO attack](https://www.coindesk.com/understanding-dao-hack-journalists/)
 for UVic's SENG 360 class.
 
+### [Live demo](https://steviehoward.com/DAOpresentation/)
+
 We assume that the audience is technically savvy but unfamiliar with
 blockchain technology - specifically Ethereum.
 
