@@ -3,9 +3,9 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
-  Deck,
-  Slide,
-  Spectacle
+    Deck,
+    Slide,
+    Spectacle
 } from 'spectacle';
 
 // Import theme
@@ -25,9 +25,9 @@ require('normalize.css');
 require('spectacle/lib/themes/default/index.css');
 
 const theme = createTheme({
-    primary: 'white',
-    secondary: '#4A4A4A',
-    quartenary: '#06D6A0'
+    primary: '#1B1B17',
+    secondary: '#FEFEFE',
+    quartenary: '#FCBA04'
 }, {
     primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 });

@@ -4,10 +4,9 @@
   "description": "Spectacle Powered Presentation Template",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress && cp -r public/* build",
+    "clean": "rimraf ../docs",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress && cp -r public/* ../docs",
     "predeploy": "npm run clean && npm run build",
-    "deploy": "surge build/ https://intro-sdaml.surge.sh",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress"
   },
   "author": "",
