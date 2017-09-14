@@ -1,14 +1,28 @@
-# sd&ml intro
+# DAO Attack
 
-Here lies the deck and notes of the first sd&ml meeting of 2017.
+![](https://www.ethereum.org/images/logos/ETHEREUM-LOGO_LANDSCAPE_Black.png)
 
-- [Slides are here](http://introduction.sdaml.club)
-- [Notes are here](https://github.com/sdaml/Introduction/tree/master/Notes)
+This is a 12 minute presentation on
+[The DAO attack](https://www.coindesk.com/understanding-dao-hack-journalists/)
+for UVic's SENG 360 class.
 
-## Deck Dev 👨‍🏫
+We will assume that the audience is technically savvy but unfamiliar with
+blockchain technology - specifically Ethereum.
 
-- `cd` into `Deck/`
+## Deck Dev
+
 - Clone repo
-- `npm install`
+- `cd` into `Deck/`
+- `yarn` or `npm install`
 - `npm run dev` to run locally
 - `npm run build` to build to `build/`
+
+
+## Credit
+
+ALL credit for this particular
+[Spectacle](http://formidable.com/open-source/spectacle/) boilerplate goes to
+[UVic SDAML](https://sdaml.club).
+
+This is a direct fork of
+[SDAML's 2017 Introduction](http://introduction.sdaml.club/) presentation.
